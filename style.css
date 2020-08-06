@@ -1,0 +1,100 @@
+@font-face {
+  font-family: 'Product Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(https://fonts.gstatic.com/s/productsans/v5/HYvgU2fE2nRJvZ5JFAumwegdm0LZdjqr5-oayXSOefg.woff2) format('woff2');
+}
+
+
+body {
+  background: white; /* try type yellow */
+  color: #323232;
+  text-align: center;
+  line-height: 0.5;
+  /*display: flex;*/
+	flex-wrap: wrap;
+	justify-content: center;
+	height: 100vh;
+	align-items: center;
+	font-family: Product Sans;
+	font-size: 6vw;
+	padding: 140px;
+}
+
+
+h1 {
+  display:inline;
+  font-size: 90px;
+  letter-spacing: 1.5px;
+}
+
+h1.myclass1 {
+  color: #EA4335;
+}
+h1.myclass2 {
+  color: #FBBC05;
+}
+h1.myclass3 {
+  color: #4285F4;
+}
+h1.myclass4 {
+  color: #34A853;
+}
+
+p{
+	padding-right: 230px;
+	font-size: 16px;
+	text-align: right;
+}
+
+input[type=text] {
+  border: 1px solid #ccc;
+  margin: 8px 0;
+  padding: 0px 30px;
+  width: 520px;
+  height: 40px;
+  border-radius: 35px;
+  overflow: visible;
+  font-size: 16px;
+}
+
+input[type=text_adv] {
+  border: 1px solid #ccc;
+  margin: 2px 0;
+  padding: 0px 30px;
+  width: 500px;
+  height: 30px;
+  border-radius: 5px;
+  overflow: visible;
+  font-size: 16px;
+}
+
+input[type=submit] {
+  font-size: 14px;
+  background-color: #F4F4F4;
+  border: none;
+  border-radius: 5px;
+  color: #5F6368;
+  padding: 10px 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button {
+  display: inline-block;
+  font-size: 14px;
+  background-color: #F4F4F4;
+  border: none;
+  border-radius: 5px;
+  color: #5F6368;
+  padding: 10px 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttons{
+  margin: 0;
+  position: absolute;
+  top: 0%;
+  left: 80%;
+}
